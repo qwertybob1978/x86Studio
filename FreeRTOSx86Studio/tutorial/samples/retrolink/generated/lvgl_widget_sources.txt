@@ -1,0 +1,4 @@
+extra/widgets/imgbtn/lv_imgbtn.c
+widgets/lv_btn.c
+widgets/lv_dropdown.c
+widgets/lv_label.c

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "name": "FreeRTOSx86Application",
+  "targetProfileId": "dos-8088-hercules",
+  "formTitle": "FreeRTOS GUI",
+  "formTypeName": "MainForm",
+  "formProperties": {
+    "showTitleBar": false,
+    "resizable": false,
+    "hasCloseBox": false,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": true,
+    "movable": false,
+    "left": 24,
+    "top": 32,
+    "width": 720,
+    "height": 348
+  },
+  "controls": [
+    {
+      "id": "control1",
+      "widgetTypeId": "checkbox",
+      "text": "Check Box",
+      "x": 16,
+      "y": 16,
+      "width": 110,
+      "height": 18,
+      "properties": {
+        "checked": "false",
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    },
+    {
+      "id": "control2",
+      "widgetTypeId": "graphic-arc-outline",
+      "text": "",
+      "x": 312,
+      "y": 112,
+      "width": 64,
+      "height": 48,
+      "properties": {
+        "startAngle": "0",
+        "sweepAngle": "180",
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    },
+    {
+      "id": "control3",
+      "widgetTypeId": "lvgl-button-matrix",
+      "text": "",
+      "x": 40,
+      "y": 112,
+      "width": 160,
+      "height": 60,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000",
+        "items": "One\nTwo\nThree"
+      },
+      "events": {}
+    },
+    {
+      "id": "control4",
+      "widgetTypeId": "lvgl-color-wheel",
+      "text": "",
+      "x": 480,
+      "y": 104,
+      "width": 120,
+      "height": 120,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    },
+    {
+      "id": "control5",
+      "widgetTypeId": "lvgl-keyboard",
+      "text": "",
+      "x": 16,
+      "y": 184,
+      "width": 400,
+      "height": 100,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    },
+    {
+      "id": "control6",
+      "widgetTypeId": "lvgl-spinbox",
+      "text": "0",
+      "x": 216,
+      "y": 24,
+      "width": 272,
+      "height": 40,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000",
+        "value": "0"
+      },
+      "events": {}
+    }
+  ],
+  "components": []
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "name": "Notepad",
+  "targetProfileId": "mac-se-68k",
+  "formTitle": "Tiny Notepad",
+  "formTypeName": "NotepadForm",
+  "formProperties": {
+    "showTitleBar": true,
+    "resizable": false,
+    "hasCloseBox": true,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": false,
+    "movable": true,
+    "left": 24,
+    "top": 32,
+    "width": 462,
+    "height": 262
+  },
+  "controls": [
+    {
+      "id": "Instructions",
+      "widgetTypeId": "static-text",
+      "text": "Write up to 255 characters. Save stores Note.txt beside the app.",
+      "x": 12,
+      "y": 12,
+      "width": 438,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "NoteText",
+      "widgetTypeId": "editable-text",
+      "text": "",
+      "x": 12,
+      "y": 36,
+      "width": 438,
+      "height": 132,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "SaveButton",
+      "widgetTypeId": "button",
+      "text": "Save",
+      "x": 16,
+      "y": 184,
+      "width": 72,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "NotepadSaveClick"
+      }
+    },
+    {
+      "id": "LoadButton",
+      "widgetTypeId": "button",
+      "text": "Load",
+      "x": 96,
+      "y": 182,
+      "width": 72,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "NotepadLoadClick"
+      }
+    },
+    {
+      "id": "ClearButton",
+      "widgetTypeId": "button",
+      "text": "Clear",
+      "x": 180,
+      "y": 182,
+      "width": 72,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "NotepadClearClick"
+      }
+    },
+    {
+      "id": "StatusText",
+      "widgetTypeId": "static-text",
+      "text": "Ready.",
+      "x": 12,
+      "y": 220,
+      "width": 390,
+      "height": 20,
+      "properties": {},
+      "events": {}
+    }
+  ],
+  "components": []
+}

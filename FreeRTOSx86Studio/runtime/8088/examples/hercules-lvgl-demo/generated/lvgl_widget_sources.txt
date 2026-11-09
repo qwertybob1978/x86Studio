@@ -1,0 +1,8 @@
+extra\widgets\colorwheel\lv_colorwheel.c
+extra\widgets\keyboard\lv_keyboard.c
+extra\widgets\spinbox\lv_spinbox.c
+widgets\lv_arc.c
+widgets\lv_btnmatrix.c
+widgets\lv_checkbox.c
+widgets\lv_label.c
+widgets\lv_textarea.c

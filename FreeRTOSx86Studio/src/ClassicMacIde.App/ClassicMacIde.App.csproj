@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassicMacIde.Core\ClassicMacIde.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="System.IO.Ports" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\README.md" LogicalName="ClassicMacIde.App.Help.README.md" />
+    <EmbeddedResource Include="..\..\docs\developerManual.md" LogicalName="ClassicMacIde.App.Help.DeveloperManual.md" />
+    <EmbeddedResource Include="..\..\docs\classic-c-language.md" LogicalName="ClassicMacIde.App.Help.CLanguage.md" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AssemblyName>FreeRTOSx86Studio</AssemblyName>
+    <Product>FreeRTOSx86Studio</Product>
+    <Version>0.1</Version>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>

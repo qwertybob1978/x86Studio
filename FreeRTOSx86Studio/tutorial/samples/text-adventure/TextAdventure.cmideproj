@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "name": "TextAdventure",
+  "targetProfileId": "mac-se-68k",
+  "formTitle": "Treasure Cave",
+  "formTypeName": "AdventureForm",
+  "formProperties": {
+    "showTitleBar": true,
+    "resizable": false,
+    "hasCloseBox": true,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": false,
+    "movable": true,
+    "left": 24,
+    "top": 32,
+    "width": 462,
+    "height": 262
+  },
+  "controls": [
+    {
+      "id": "SceneText",
+      "widgetTypeId": "static-text",
+      "text": "A brass key lies beside a locked treasure chest.",
+      "x": 12,
+      "y": 16,
+      "width": 438,
+      "height": 20,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "InventoryText",
+      "widgetTypeId": "static-text",
+      "text": "Inventory: empty",
+      "x": 12,
+      "y": 52,
+      "width": 438,
+      "height": 20,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "StatusText",
+      "widgetTypeId": "static-text",
+      "text": "Take the key, then open the chest.",
+      "x": 12,
+      "y": 86,
+      "width": 438,
+      "height": 20,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "LookButton",
+      "widgetTypeId": "button",
+      "text": "Look",
+      "x": 12,
+      "y": 142,
+      "width": 80,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "AdventureLookClick"
+      }
+    },
+    {
+      "id": "TakeKeyButton",
+      "widgetTypeId": "button",
+      "text": "Take Key",
+      "x": 104,
+      "y": 144,
+      "width": 92,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "AdventureTakeKeyClick"
+      }
+    },
+    {
+      "id": "OpenChestButton",
+      "widgetTypeId": "button",
+      "text": "Open Chest",
+      "x": 208,
+      "y": 142,
+      "width": 100,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "AdventureOpenChestClick"
+      }
+    },
+    {
+      "id": "ResetButton",
+      "widgetTypeId": "button",
+      "text": "Start Over",
+      "x": 320,
+      "y": 142,
+      "width": 100,
+      "height": 24,
+      "properties": {},
+      "events": {
+        "OnClick": "AdventureResetClick"
+      }
+    }
+  ],
+  "components": []
+}

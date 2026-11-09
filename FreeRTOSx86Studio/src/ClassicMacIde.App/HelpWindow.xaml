@@ -1,0 +1,43 @@
+<Window x:Class="ClassicMacIde.App.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ClassicMacStudio Help"
+        Width="1050"
+        Height="760"
+        MinWidth="760"
+        MinHeight="520"
+        WindowStartupLocation="CenterOwner">
+    <DockPanel>
+        <Border DockPanel.Dock="Top"
+                Background="#F2F4F7"
+                BorderBrush="#C8D0DB"
+                BorderThickness="0,0,0,1"
+                Padding="16,12">
+            <StackPanel>
+                <TextBlock Text="ClassicMacStudio Help"
+                           FontSize="20"
+                           FontWeight="SemiBold" />
+                <TextBlock Text="Offline setup, designer, components, and C language documentation"
+                           Margin="0,3,0,0"
+                           Foreground="#555555" />
+            </StackPanel>
+        </Border>
+        <Grid Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="230" />
+                <ColumnDefinition Width="12" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="HelpTopics"
+                     Grid.Column="0"
+                     DisplayMemberPath="Title"
+                     SelectionChanged="HelpTopics_SelectionChanged" />
+            <Border Grid.Column="2"
+                    BorderBrush="#C8D0DB"
+                    BorderThickness="1">
+                <WebBrowser x:Name="HelpContent"
+                            Navigating="HelpContent_Navigating" />
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>

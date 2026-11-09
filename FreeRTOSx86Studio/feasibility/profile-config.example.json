@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "mac-se-68k": {
+      "architecture": "68k",
+      "artifactPath": "C:/replace-with-user-workspace/HelloMac.dsk",
+      "build": {
+        "command": "wsl.exe",
+        "args": [
+          "--distribution",
+          "Ubuntu",
+          "--exec",
+          "bash",
+          "/mnt/c/replace-with-user-workspace/build-hello-mac.sh"
+        ]
+      },
+      "emulator": {
+        "command": "C:/replace-with-user-installed/BasiliskII.exe",
+        "args": [
+          "--config",
+          "C:/replace-with-user-workspace/BasiliskII.prefs",
+          "{artifact}"
+        ]
+      }
+    }
+  }
+}

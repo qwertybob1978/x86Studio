@@ -1,0 +1,10 @@
+# This workspace sits beside reference checkouts and local dependencies.
+# Keep only workspace metadata and the FreeRTOSx86Studio source tree.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/PROJECT_PLAN.md
+!/.github/
+!/.vscode/
+!/FreeRTOSx86Studio/

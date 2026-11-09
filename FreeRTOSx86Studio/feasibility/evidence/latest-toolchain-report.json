@@ -1,0 +1,234 @@
+{
+  "capturedAt": "2026-10-30T15:32:29.476Z",
+  "host": {
+    "os": "windows/x86_64",
+    "deno": {
+      "id": "deno",
+      "state": "available",
+      "path": "%USERPROFILE%\\.deno\\bin\\deno.exe"
+    },
+    "windows": [
+      {
+        "id": "deno",
+        "state": "available",
+        "path": "%USERPROFILE%\\.deno\\bin\\deno.exe"
+      },
+      {
+        "id": "rustup",
+        "state": "missing"
+      },
+      {
+        "id": "rustc",
+        "state": "missing"
+      },
+      {
+        "id": "cargo",
+        "state": "missing"
+      },
+      {
+        "id": "tauri",
+        "state": "missing"
+      },
+      {
+        "id": "git",
+        "state": "available",
+        "path": "C:\\Program Files\\Git\\cmd\\git.exe"
+      },
+      {
+        "id": "wsl",
+        "state": "available",
+        "path": "C:\\Windows\\System32\\wsl.exe"
+      },
+      {
+        "id": "cmake",
+        "state": "available",
+        "path": "C:\\Program Files\\CMake\\bin\\cmake.exe"
+      },
+      {
+        "id": "BasiliskII.exe",
+        "state": "available",
+        "path": "E:\\own\\MacStudio\\.local-tools\\emulators\\BasiliskII\\BasiliskII.exe"
+      },
+      {
+        "id": "SheepShaver.exe",
+        "state": "available",
+        "path": "E:\\own\\MacStudio\\.local-tools\\emulators\\SheepShaver\\SheepShaver.exe"
+      },
+      {
+        "id": "mame.exe",
+        "state": "available",
+        "path": "E:\\own\\MacStudio\\.local-tools\\emulators\\MAME\\mame.exe"
+      },
+      {
+        "id": "Mini vMac.exe",
+        "state": "available",
+        "path": "E:\\own\\MacStudio\\.local-tools\\emulators\\MiniVmac-SE\\Mini vMac.exe"
+      }
+    ]
+  },
+  "wsl": {
+    "version": "2.6.3.0",
+    "distributions": [
+      {
+        "name": "Ubuntu",
+        "state": "available",
+        "tools": [
+          {
+            "id": "rustup",
+            "state": "missing"
+          },
+          {
+            "id": "cargo",
+            "state": "missing"
+          },
+          {
+            "id": "rustc",
+            "state": "missing"
+          },
+          {
+            "id": "cmake",
+            "state": "available",
+            "path": "/usr/bin/cmake"
+          },
+          {
+            "id": "make",
+            "state": "available",
+            "path": "/usr/bin/make"
+          },
+          {
+            "id": "m68k-apple-macos-gcc",
+            "state": "available",
+            "path": "/home/m20003293/retro68-build/toolchain/bin/m68k-apple-macos-gcc"
+          },
+          {
+            "id": "powerpc-apple-macos-gcc",
+            "state": "available",
+            "path": "/home/m20003293/retro68-build/toolchain/bin/powerpc-apple-macos-gcc"
+          },
+          {
+            "id": "Rez",
+            "state": "available",
+            "path": "/home/m20003293/retro68-build/toolchain/bin/Rez"
+          },
+          {
+            "id": "BasiliskII",
+            "state": "missing"
+          },
+          {
+            "id": "SheepShaver",
+            "state": "missing"
+          }
+        ]
+      },
+      {
+        "name": "kali-linux",
+        "state": "available",
+        "tools": [
+          {
+            "id": "rustup",
+            "state": "missing"
+          },
+          {
+            "id": "cargo",
+            "state": "missing"
+          },
+          {
+            "id": "rustc",
+            "state": "missing"
+          },
+          {
+            "id": "cmake",
+            "state": "missing"
+          },
+          {
+            "id": "make",
+            "state": "available",
+            "path": "/usr/bin/make"
+          },
+          {
+            "id": "m68k-apple-macos-gcc",
+            "state": "missing"
+          },
+          {
+            "id": "powerpc-apple-macos-gcc",
+            "state": "missing"
+          },
+          {
+            "id": "Rez",
+            "state": "missing"
+          },
+          {
+            "id": "BasiliskII",
+            "state": "missing"
+          },
+          {
+            "id": "SheepShaver",
+            "state": "missing"
+          }
+        ]
+      },
+      {
+        "name": "docker-desktop",
+        "state": "unknown",
+        "tools": [
+          {
+            "id": "rustup",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "cargo",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "rustc",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "cmake",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "make",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "m68k-apple-macos-gcc",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "powerpc-apple-macos-gcc",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "Rez",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "BasiliskII",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          },
+          {
+            "id": "SheepShaver",
+            "state": "unknown",
+            "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+          }
+        ],
+        "detail": "<3>WSL (10 - Relay) ERROR: CreateProcessCommon:800: execvpe(bash) failed: No such file or directory"
+      }
+    ]
+  },
+  "interpretation": {
+    "desktopHostReady": false,
+    "legacyBuildAndLaunchReady": false,
+    "compatibilityClaimsAllowed": false
+  }
+}

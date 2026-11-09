@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "deno test --allow-read --allow-run --allow-write tests",
+    "check": "deno check scripts/lib/feasibility.ts scripts/windows/verify-toolchain.ts scripts/windows/build-and-launch-hello-mac.ts tests/unit/feasibility.test.ts",
+    "test:all": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/windows/test-all.ps1"
+  }
+}

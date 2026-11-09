@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "name": "FreeRTOSx86Application",
+  "targetProfileId": "dos-8088-hercules",
+  "formTitle": "FreeRTOS GUI",
+  "formTypeName": "MainForm",
+  "formProperties": {
+    "showTitleBar": false,
+    "resizable": false,
+    "hasCloseBox": false,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": true,
+    "movable": false,
+    "left": 24,
+    "top": 32,
+    "width": 720,
+    "height": 348
+  },
+  "controls": [
+    {
+      "id": "control1",
+      "widgetTypeId": "lvgl-dropdown",
+      "text": "",
+      "x": 16,
+      "y": 16,
+      "width": 120,
+      "height": 24,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000",
+        "items": "Option 1"
+      },
+      "events": {}
+    },
+    {
+      "id": "control2",
+      "widgetTypeId": "lvgl-roller",
+      "text": "",
+      "x": 168,
+      "y": 96,
+      "width": 100,
+      "height": 60,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000",
+        "items": "One\nTwo\nThree"
+      },
+      "events": {}
+    }
+  ],
+  "components": []
+}

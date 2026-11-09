@@ -1,0 +1,2 @@
+RetroLink DOS Hercules tutorial sample file.
+Use SEND FILES to transmit this file to the Windows RetroLink peer.

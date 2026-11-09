@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "name": "HerculesLvglDemo",
+  "targetProfileId": "dos-8088-hercules",
+  "formTitle": "Hercules LVGL Demo",
+  "formTypeName": "MainForm",
+  "formProperties": {
+    "showTitleBar": false,
+    "resizable": false,
+    "hasCloseBox": false,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": true,
+    "movable": false,
+    "left": 24,
+    "top": 32,
+    "width": 720,
+    "height": 348
+  },
+  "controls": [
+    {
+      "id": "DemoTitle",
+      "widgetTypeId": "static-text",
+      "text": "LVGL HERCULES DEMO",
+      "x": 48,
+      "y": 24,
+      "width": 180,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "RunButton",
+      "widgetTypeId": "button",
+      "text": "RUN TEST",
+      "x": 48,
+      "y": 60,
+      "width": 88,
+      "height": 30,
+      "properties": {},
+      "events": {
+        "OnClick": "HandleOkay"
+      }
+    },
+    {
+      "id": "MonochromeCheckbox",
+      "widgetTypeId": "checkbox",
+      "text": "MONOCHROME",
+      "x": 48,
+      "y": 110,
+      "width": 140,
+      "height": 24,
+      "properties": {
+        "checked": "true"
+      },
+      "events": {}
+    },
+    {
+      "id": "OutlineRectangle",
+      "widgetTypeId": "graphic-rectangle-outline",
+      "text": "",
+      "x": 270,
+      "y": 56,
+      "width": 72,
+      "height": 48,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "OutlineCircle",
+      "widgetTypeId": "graphic-circle-outline",
+      "text": "",
+      "x": 370,
+      "y": 48,
+      "width": 56,
+      "height": 56,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "DiagonalLine",
+      "widgetTypeId": "graphic-line",
+      "text": "",
+      "x": 475,
+      "y": 48,
+      "width": 120,
+      "height": 50,
+      "properties": {
+        "startX": "0",
+        "startY": "0",
+        "endX": "100",
+        "endY": "100"
+      },
+      "events": {}
+    },
+    {
+      "id": "control7",
+      "widgetTypeId": "lvgl-meter",
+      "text": "50",
+      "x": 280,
+      "y": 176,
+      "width": 120,
+      "height": 120,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000",
+        "value": "50"
+      },
+      "events": {}
+    },
+    {
+      "id": "control8",
+      "widgetTypeId": "lvgl-menu",
+      "text": "",
+      "x": 32,
+      "y": 192,
+      "width": 180,
+      "height": 120,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    },
+    {
+      "id": "control9",
+      "widgetTypeId": "lvgl-led",
+      "text": "",
+      "x": 544,
+      "y": 272,
+      "width": 24,
+      "height": 24,
+      "properties": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#000000"
+      },
+      "events": {}
+    }
+  ],
+  "components": []
+}

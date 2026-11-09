@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "name": "RetroLinkTutorial",
+  "targetProfileId": "dos-8088-hercules",
+  "formTitle": "RetroLink DOS",
+  "formTypeName": "RetroLinkForm",
+  "formProperties": {
+    "showTitleBar": false,
+    "resizable": false,
+    "hasCloseBox": false,
+    "hasZoomBox": false,
+    "visible": true,
+    "centerOnScreen": true,
+    "movable": false,
+    "left": 0,
+    "top": 0,
+    "width": 720,
+    "height": 348
+  },
+  "controls": [
+    {
+      "id": "ComPort",
+      "widgetTypeId": "lvgl-dropdown",
+      "text": "",
+      "x": 10,
+      "y": 4,
+      "width": 120,
+      "height": 24,
+      "properties": {
+        "items": "COM2\nCOM4"
+      },
+      "events": {}
+    },
+    {
+      "id": "BaudRate",
+      "widgetTypeId": "lvgl-dropdown",
+      "text": "",
+      "x": 136,
+      "y": 4,
+      "width": 120,
+      "height": 24,
+      "properties": {
+        "items": "300\n600\n1200\n1800\n2400\n3600\n4800\n7200\n9600\n14400\n19200\n28800\n38400\n57600\n115200"
+      },
+      "events": {}
+    },
+    {
+      "id": "LinkButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 264,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "ControlButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 296,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "SendButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 328,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "DownloadButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 360,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "OpenButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 392,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "UpButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 424,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "MarkButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 456,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "RefreshButton",
+      "widgetTypeId": "lvgl-image-button",
+      "text": "",
+      "x": 488,
+      "y": 2,
+      "width": 24,
+      "height": 24,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "LinkLabel",
+      "widgetTypeId": "static-text",
+      "text": "LINK",
+      "x": 264,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "ControlLabel",
+      "widgetTypeId": "static-text",
+      "text": "CTL",
+      "x": 296,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "SendLabel",
+      "widgetTypeId": "static-text",
+      "text": "SEND",
+      "x": 328,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "DownloadLabel",
+      "widgetTypeId": "static-text",
+      "text": "GET",
+      "x": 360,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "OpenLabel",
+      "widgetTypeId": "static-text",
+      "text": "OPEN",
+      "x": 392,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "UpLabel",
+      "widgetTypeId": "static-text",
+      "text": "UP",
+      "x": 424,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "MarkLabel",
+      "widgetTypeId": "static-text",
+      "text": "MARK",
+      "x": 456,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "RefreshLabel",
+      "widgetTypeId": "static-text",
+      "text": "REF",
+      "x": 488,
+      "y": 26,
+      "width": 32,
+      "height": 16,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "LocalPath",
+      "widgetTypeId": "static-text",
+      "text": "LOCAL C:\\DATA",
+      "x": 14,
+      "y": 44,
+      "width": 338,
+      "height": 17,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "RemotePath",
+      "widgetTypeId": "static-text",
+      "text": "REMOTE (waiting for Windows)",
+      "x": 368,
+      "y": 44,
+      "width": 338,
+      "height": 17,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "LocalFiles",
+      "widgetTypeId": "static-text",
+      "text": "",
+      "x": 14,
+      "y": 64,
+      "width": 338,
+      "height": 248,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "RemoteFiles",
+      "widgetTypeId": "static-text",
+      "text": "",
+      "x": 368,
+      "y": 64,
+      "width": 338,
+      "height": 248,
+      "properties": {},
+      "events": {}
+    },
+    {
+      "id": "Status",
+      "widgetTypeId": "static-text",
+      "text": "Waiting for REMOTE connection.",
+      "x": 16,
+      "y": 321,
+      "width": 688,
+      "height": 20,
+      "properties": {},
+      "events": {}
+    }
+  ],
+  "components": []
+}
