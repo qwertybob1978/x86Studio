@@ -1,4 +1,4 @@
-# DOS RTOS Workspace
+# IDE for graphical MS-DOS application development (WYSIWYG) and runtime application using FreeRTOS as core.
 
 This workspace contains the FreeRTOSx86Studio IDE and its 8088/Hercules DOS
 runtime. The project plan is in [PROJECT_PLAN.md](PROJECT_PLAN.md). The current
