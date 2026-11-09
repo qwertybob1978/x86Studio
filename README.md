@@ -11,6 +11,12 @@ beside it—`ClassicMacStudio/`, `FreeRTOS-LTS/`, `ISA-PicoMEM/`, `dos-poc/`, an
 `dosbox-x/`—are not included. Obtain the external dependencies separately as
 described below.
 
+## IDE screenshot
+
+The IDE shown with the RetroLink tutorial demo project open:
+
+![FreeRTOSx86Studio with the RetroLink tutorial project open](FreeRTOSx86Studio/docs/images/ide-retrolink-demo.png)
+
 ## Requirements
 
 - Windows 10/11 and the .NET 10 SDK for the IDE.
