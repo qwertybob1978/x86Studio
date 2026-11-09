@@ -3,7 +3,9 @@
 This workspace contains the FreeRTOSx86Studio IDE and its 8088/Hercules DOS
 runtime. The project plan is in [PROJECT_PLAN.md](PROJECT_PLAN.md). The current
 GUI runtime target is 8088-compatible DOS with Hercules graphics; the
-80386/VGA target is not implemented yet.
+80386/VGA target is not implemented yet, but.. it is in progress.
+
+I built this because I like to use my old crap retro computers to their limits. Next, it is a nice way to show the use of FreeRTOS on x86.
 
 The root [.gitignore](.gitignore) keeps the workspace metadata and
 `FreeRTOSx86Studio/` sources. Reference trees and local build dependencies
